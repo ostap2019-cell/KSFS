@@ -1,0 +1,67 @@
+body {
+    background-image: url();
+    background-color: rgb(200, 162, 136);
+}
+
+h1 {
+    border: 4PX solid ;
+    border-radius: 50PX;
+    font-size: 80px;
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+li, p{
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+input,button{
+    padding: 10px 10px;
+    border: 4X solid;
+    border-radius: 50PX;
+    
+}
+
+.boss {
+    display: flex;
+    justify-content: center; /* Центрирует боссов на экране */
+    gap: 1600px;             /* Расстояние между боссами */
+    margin-top: 30px;
+}
+
+.boss div {
+    text-align: center;
+}
+#Krol {
+    display: flex;
+    justify-content: center;
+}
+#Zloi_Mobs {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
