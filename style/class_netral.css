@@ -1,0 +1,107 @@
+h1 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    border-color:red;
+    border-radius: 20px ;
+}
+h2{
+    font-size: 70px;
+
+}
+
+img { 
+    width: 300px; height: auto; 
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+    margin: 10 auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: transform 0.8s;
+    opacity: 1.0; 
+
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    border: 6px solid black; 
+}
+
+body {
+    background-color: #b7f1fa; 
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating input {
+  display: none; /* Спрятать сами радио-кнопки */
+}
+
+.rating label {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.rating label::before {
+  content: '★'; /* Символ звезды в Юникоде */
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.rating input:checked + label::before {
+  content: '⭐'; /* Заполненная звезда */
+  color: gold;
+}
+
+
+.image-container figcaption {
+  display: none; /* Скрываем текст */
+}
+
+.image-container:hover figcaption {
+  display: block; /* Показываем при наведении */
+}
+
+.image-container {
+  width: fit-content; /* Ширина будет равна ширине самого широкого элемента внутри */
+  margin: 0 auto;    /* Если нужно центрировать этот блок */
+}
+
+.image-container:hover {
+  background-color: #b7f1fa;
+}
+
+input,button{
+    padding: 10px 10px;
+    border: 4X solid;
+    border-radius: 50PX;
+    
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

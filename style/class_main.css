@@ -1,0 +1,132 @@
+p, li {
+    font-size: 34px;
+    color: rgb(35, 62, 54);
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 67px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(56, 116, 99);
+    background-color: rgba(237, 238, 158, 0.5);
+    border: 4px solid rgb(160, 185, 110);
+    border-radius: 50px;
+    width: 1000px;
+    text-shadow: 5px 5px 10px;
+}
+
+h3 {
+    font-size: 39px;
+    text-align: center;
+    color: rgb(10, 15, 14);
+    border-radius: 50px;
+    width: 600px;
+    text-shadow: 5px 5px 10px;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgb(38, 65, 57);
+    margin-left: 100px;
+    text-shadow: 5px 5px 7px;
+}
+
+html, body {
+    height: 100%; /* Это важно: элемент должен быть на весь экран */
+    margin: 0; /* Убираем отступы, чтобы не было лишнего пространства */
+}
+
+body {
+    background-color: rgb(195, 227, 198);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+figcaption {
+    font-size: 25px;
+}
+
+
+#pict1 {
+    margin-left: 120px;
+    border: 5px solid rgb(229, 232, 231);
+    border-radius: 20px;
+    transition: transform 0.8s;
+    box-shadow: 5px 5px 10px;
+}
+
+
+#pict1:hover{
+    transform: scale(1.1);
+}
+
+#pict2 {
+    margin-left: 100px;
+    border: 4px solid rgb(214, 219, 227);
+    border-radius: 20px;
+}
+
+#buttons1, #buttons2, #buttons3 {
+    display: flex;
+    width: 750px;
+    height: 300px;
+    background-color: rgb(229, 239, 236);
+    border: 5px solid rgb(193, 230, 218);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    transition: transform 0.5s;
+}
+
+#buttons1:hover{
+    transform: scale(1.05);
+}
+
+#buttons2:hover{
+    transform: scale(1.05);
+}
+
+#buttons3:hover{
+    transform: scale(1.05);
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+input {
+    width: 400px;
+    height:75px;
+    border: 5px solid rgb(193, 230, 218);
+    border-radius: 20px;
+}
+
+button {
+    width: 100px;
+    height: 75px;
+    background-color: rgb(229, 239, 236);
+    border: 5px solid rgb(193, 230, 218);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(224, 235, 237);
+}
+
+h3 {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+}
+
+.info {
+    width: 600px;
+    margin-left: 550px;
+    display: flex;
+}

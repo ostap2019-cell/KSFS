@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(232, 234, 178);
+}
+
+p{
+    color:#0e1310;
+    text-align: center;
+}
+
+.mob-text {
+    font-size:  30px; 
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.mob-card{
+    font-size: 40px;
+}
+
+.mob-card img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;          /* нужный размер */
+    height: auto;          /* сохраняет пропорции */        /* убирает лишние отступы */
+    margin-bottom: 10px;
+}
+
+.mob-img{
+    display: block;
+    justify-self: center;
+}
+
+.mob-name{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    border: 6px solid;
+    border-color: #0e1310;
+    border-radius: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
